@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bd.bern.clou",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "gateway",
+    "baseName": "clou",
+    "packageName": "com.bd.bern.clou",
+    "packageFolder": "com/bd/bern/clou",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjdkMmQxN2I3M2NlYjZhZDM4OTc2NDJiNWZlNTMwODc1NzJiYzNlMWEwNGY0NjBmN2MxODBiODNkMTFiN2JhNzQ1MTNlZmZhYWJkMTUzZjVhM2I4NGM5ODIzNTI3ZjFiOTc4NjZkZGZkOTM1ODk0MmQ3MWQzZjUwN2IyODdlZGU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "litera",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "de"],
+    "blueprints": []
+  }
+}
