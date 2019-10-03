@@ -7,9 +7,12 @@ jhipster:
   security:
     authentication:
       jwt:
-        secret: my-secret-key-which-should-be-changed-in-production-and-be-base64-encoded
+        base64-secret: NjdkMmQxN2I3M2NlYjZhZDM4OTc2NDJiNWZlNTMwODc1NzJiYzNlMWEwNGY0NjBmN2MxODBiODNkMTFiN2JhNzQ1MTNlZmZhYWJkMTUzZjVhM2I4NGM5ODIzNTI3ZjFiOTc4NjZkZGZkOTM1ODk0MmQ3MWQzZjUwN2IyODdlZGU=
 
 eureka:
   client:
     service-url:
       defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
+
+application:
+  movement-topic: 'movement'
