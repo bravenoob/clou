@@ -14,5 +14,5 @@ eureka:
     service-url:
       defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
 
-application:
+clou:
   movement-topic: 'movement'
