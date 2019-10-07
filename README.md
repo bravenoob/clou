@@ -1,5 +1,19 @@
 # clou
 
+## Running:
+
+1. jhipster registry starten:
+   docker-compose -f src\main\docker\jhipster-registry.yml up -d
+
+2. Restliche Microservices starten (Graze):
+   Graze -> docker-compose -f C:\work\projects\clou\clou\src\main\docker\kafka-complete.yml up -d
+   SpringBootAp starten
+
+3. Restliche Microservices starten (Cmeter):
+   Cmeter -> SpringBootAp starten
+
+---
+
 This application was generated using JHipster 6.3.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.3.1](https://www.jhipster.tech/documentation-archive/v6.3.1).
 
 This is a "gateway" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
