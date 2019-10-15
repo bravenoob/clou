@@ -6,11 +6,17 @@
    docker-compose -f src\main\docker\jhipster-registry.yml up -d
 
 2. Restliche Microservices starten (Graze):
-   Graze -> docker-compose -f C:\work\projects\clou\clou\src\main\docker\kafka-complete.yml up -d
+   Graze -> docker-compose -f C:\work\projects\clou\clou-graze\src\main\docker\kafka-complete.yml up -d
    SpringBootAp starten
 
 3. Restliche Microservices starten (Cmeter):
    Cmeter -> SpringBootAp starten
+
+---
+
+App: http://localhost:8080
+Api: http://localhost:8080/admin/docs
+Kafka Center: http://localhost:9021
 
 ---
 
